@@ -1,0 +1,545 @@
+0000.000 (0) Opened log file at time: Tue, 21 Apr 2026 08:46:21 +0000 on https://humania.uy
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.1 WP: 6.9.4 PHP: 8.3.30 (litespeed, Linux br-asc-web1843.main-hosting.eu 5.14.0-611.42.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Mar 24 05:30:20 EDT 2026 x86_64) MySQL: 11.8.6-MariaDB-log (max packet size=1073741824) WPLANG: es_ES Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 18.7M | 22M) multisite: N openssl: OpenSSL 3.5.1 1 Jul 2025 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 11995639.1 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.005 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.015 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1776066555, seconds_ago=694626)
+0000.016 (0) Set semaphore last lock (fd) time to 2026-04-21 08:46:21
+0000.017 (0) Semaphore lock (fd) complete
+0000.019 (0) Backup run: resumption=0, nonce=c63690137b65, file_nonce=c63690137b65 begun at=1776761181 (0s ago), job type=backup
+0000.020 (0) Scheduling a resumption (1) after 300 seconds (1776761481) in case this run gets aborted
+0000.040 (0) Checking if we have a zip executable available
+0000.041 (0) Testing: /usr/bin/zip
+0000.045 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.046 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.047 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.048 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.049 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.052 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.054 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.062 (0) Working binary zip found: /usr/bin/zip
+0000.063 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.064 (0) Creation of backups of directories: beginning
+0000.067 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.844 (0) Total entities for the zip file: 2017 directories, 12686 files (0 skipped as non-modified), 187 MB
+0000.849 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.852 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.856 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.860 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.862 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 12686 files batched, 463 (463) added so far); re-opening (prior size: 0 KB)
+0002.323 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: size is now: 8.00 MB
+0002.325 (0) A useful amount of data was added after this amount of zip processing: 2.9 s (normalised: 2.9 s, rate: 8932.2 KB/s)
+0002.327 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.8695330619812, normalised_time=2.8660310996188, max_time=2.3260068893433, data points known=1, old_max_bytes=26214400, new_max_bytes=54879516)
+0002.330 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 500 files added (on-disk size: 8148 KB)
+0002.334 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 600 files added (on-disk size: 8148 KB)
+0002.337 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 700 files added (on-disk size: 8148 KB)
+0002.341 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 800 files added (on-disk size: 8148 KB)
+0002.344 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 900 files added (on-disk size: 8148 KB)
+0002.347 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 1000 files added (on-disk size: 8148 KB)
+0002.350 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 1100 files added (on-disk size: 8148 KB)
+0002.353 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 1200 files added (on-disk size: 8148 KB)
+0002.356 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 1300 files added (on-disk size: 8148 KB)
+0002.359 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 1400 files added (on-disk size: 8148 KB)
+0002.362 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (32.3 MB, 12686 files batched, 1001 (1464) added so far); re-opening (prior size: 8148 KB)
+0004.185 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: size is now: 15.10 MB
+0004.188 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 1500 files added (on-disk size: 15443.6 KB)
+0004.191 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 1600 files added (on-disk size: 15443.6 KB)
+0004.194 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 1700 files added (on-disk size: 15443.6 KB)
+0004.197 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 1800 files added (on-disk size: 15443.6 KB)
+0004.200 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 1900 files added (on-disk size: 15443.6 KB)
+0004.203 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 2000 files added (on-disk size: 15443.6 KB)
+0004.206 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 2100 files added (on-disk size: 15443.6 KB)
+0004.209 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 2200 files added (on-disk size: 15443.6 KB)
+0004.212 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 2300 files added (on-disk size: 15443.6 KB)
+0004.214 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 2400 files added (on-disk size: 15443.6 KB)
+0004.216 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.9 MB, 12686 files batched, 1001 (2465) added so far); re-opening (prior size: 15443.6 KB)
+0005.006 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 2500 files added (on-disk size: 16812.4 KB)
+0005.009 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 2600 files added (on-disk size: 16812.4 KB)
+0005.012 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 2700 files added (on-disk size: 16812.4 KB)
+0005.014 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 2800 files added (on-disk size: 16812.4 KB)
+0005.017 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 2900 files added (on-disk size: 16812.4 KB)
+0005.020 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 3000 files added (on-disk size: 16812.4 KB)
+0005.023 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 3100 files added (on-disk size: 16812.4 KB)
+0005.026 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 3200 files added (on-disk size: 16812.4 KB)
+0005.029 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 3300 files added (on-disk size: 16812.4 KB)
+0005.031 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 3400 files added (on-disk size: 16812.4 KB)
+0005.034 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.8 MB, 12686 files batched, 1001 (3466) added so far); re-opening (prior size: 16812.4 KB)
+0005.998 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: size is now: 23.90 MB
+0006.001 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 3500 files added (on-disk size: 24493.4 KB)
+0006.004 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 3600 files added (on-disk size: 24493.4 KB)
+0006.007 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 3700 files added (on-disk size: 24493.4 KB)
+0006.010 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 3800 files added (on-disk size: 24493.4 KB)
+0006.013 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 3900 files added (on-disk size: 24493.4 KB)
+0006.016 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 4000 files added (on-disk size: 24493.4 KB)
+0006.018 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 4100 files added (on-disk size: 24493.4 KB)
+0006.021 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 4200 files added (on-disk size: 24493.4 KB)
+0006.024 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 4300 files added (on-disk size: 24493.4 KB)
+0006.027 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 4400 files added (on-disk size: 24493.4 KB)
+0006.029 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.6 MB, 12686 files batched, 1001 (4467) added so far); re-opening (prior size: 24493.4 KB)
+0006.716 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 4500 files added (on-disk size: 27762.5 KB)
+0006.719 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 4600 files added (on-disk size: 27762.5 KB)
+0006.722 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 4700 files added (on-disk size: 27762.5 KB)
+0006.725 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 4800 files added (on-disk size: 27762.5 KB)
+0006.728 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 4900 files added (on-disk size: 27762.5 KB)
+0006.732 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 5000 files added (on-disk size: 27762.5 KB)
+0006.735 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 5100 files added (on-disk size: 27762.5 KB)
+0006.738 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 5200 files added (on-disk size: 27762.5 KB)
+0006.741 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 5300 files added (on-disk size: 27762.5 KB)
+0006.744 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 5400 files added (on-disk size: 27762.5 KB)
+0006.746 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24 MB, 12686 files batched, 1001 (5468) added so far); re-opening (prior size: 27762.5 KB)
+0007.829 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: size is now: 36.50 MB
+0007.833 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 5500 files added (on-disk size: 37345.7 KB)
+0007.836 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 5600 files added (on-disk size: 37345.7 KB)
+0007.840 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 5700 files added (on-disk size: 37345.7 KB)
+0007.844 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 5800 files added (on-disk size: 37345.7 KB)
+0007.847 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 5900 files added (on-disk size: 37345.7 KB)
+0007.851 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 6000 files added (on-disk size: 37345.7 KB)
+0007.854 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 6100 files added (on-disk size: 37345.7 KB)
+0007.857 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 6200 files added (on-disk size: 37345.7 KB)
+0007.860 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 6300 files added (on-disk size: 37345.7 KB)
+0007.863 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 6400 files added (on-disk size: 37345.7 KB)
+0007.865 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.7 MB, 12686 files batched, 1001 (6469) added so far); re-opening (prior size: 37345.7 KB)
+0008.458 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 6500 files added (on-disk size: 42831.6 KB)
+0008.461 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 6600 files added (on-disk size: 42831.6 KB)
+0008.463 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 6700 files added (on-disk size: 42831.6 KB)
+0008.466 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 6800 files added (on-disk size: 42831.6 KB)
+0008.469 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 6900 files added (on-disk size: 42831.6 KB)
+0008.472 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 7000 files added (on-disk size: 42831.6 KB)
+0008.476 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 7100 files added (on-disk size: 42831.6 KB)
+0008.479 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 7200 files added (on-disk size: 42831.6 KB)
+0008.483 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 7300 files added (on-disk size: 42831.6 KB)
+0008.486 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 7400 files added (on-disk size: 42831.6 KB)
+0008.488 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.1 MB, 12686 files batched, 1001 (7470) added so far); re-opening (prior size: 42831.6 KB)
+0008.880 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 7500 files added (on-disk size: 44234.7 KB)
+0008.883 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 7600 files added (on-disk size: 44234.7 KB)
+0008.887 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 7700 files added (on-disk size: 44234.7 KB)
+0008.890 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 7800 files added (on-disk size: 44234.7 KB)
+0008.893 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 7900 files added (on-disk size: 44234.7 KB)
+0008.896 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 8000 files added (on-disk size: 44234.7 KB)
+0008.899 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 8100 files added (on-disk size: 44234.7 KB)
+0008.902 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 8200 files added (on-disk size: 44234.7 KB)
+0008.905 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 8300 files added (on-disk size: 44234.7 KB)
+0008.908 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 8400 files added (on-disk size: 44234.7 KB)
+0008.910 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.3 MB, 12686 files batched, 1001 (8471) added so far); re-opening (prior size: 44234.7 KB)
+0009.665 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 8500 files added (on-disk size: 45170.9 KB)
+0009.669 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 8600 files added (on-disk size: 45170.9 KB)
+0009.672 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 8700 files added (on-disk size: 45170.9 KB)
+0009.676 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 8800 files added (on-disk size: 45170.9 KB)
+0009.679 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 8900 files added (on-disk size: 45170.9 KB)
+0009.682 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 9000 files added (on-disk size: 45170.9 KB)
+0009.686 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 9100 files added (on-disk size: 45170.9 KB)
+0009.688 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 9200 files added (on-disk size: 45170.9 KB)
+0009.691 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 9300 files added (on-disk size: 45170.9 KB)
+0009.695 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 9400 files added (on-disk size: 45170.9 KB)
+0009.697 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.1 MB, 12686 files batched, 1001 (9472) added so far); re-opening (prior size: 45170.9 KB)
+0010.464 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 9500 files added (on-disk size: 46629.1 KB)
+0010.467 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 9600 files added (on-disk size: 46629.1 KB)
+0010.470 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 9700 files added (on-disk size: 46629.1 KB)
+0010.473 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 9800 files added (on-disk size: 46629.1 KB)
+0010.475 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 9900 files added (on-disk size: 46629.1 KB)
+0010.478 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 10000 files added (on-disk size: 46629.1 KB)
+0010.481 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 10100 files added (on-disk size: 46629.1 KB)
+0010.484 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 10200 files added (on-disk size: 46629.1 KB)
+0010.487 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 10300 files added (on-disk size: 46629.1 KB)
+0010.490 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 10400 files added (on-disk size: 46629.1 KB)
+0010.493 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.5 MB, 12686 files batched, 1001 (10473) added so far); re-opening (prior size: 46629.1 KB)
+0011.300 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 10500 files added (on-disk size: 54975.6 KB)
+0011.303 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 10600 files added (on-disk size: 54975.6 KB)
+0011.306 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 10700 files added (on-disk size: 54975.6 KB)
+0011.309 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 10800 files added (on-disk size: 54975.6 KB)
+0011.311 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 10900 files added (on-disk size: 54975.6 KB)
+0011.314 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 11000 files added (on-disk size: 54975.6 KB)
+0011.317 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 11100 files added (on-disk size: 54975.6 KB)
+0011.320 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 11200 files added (on-disk size: 54975.6 KB)
+0011.323 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 11300 files added (on-disk size: 54975.6 KB)
+0011.326 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 11400 files added (on-disk size: 54975.6 KB)
+0011.328 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.7 MB, 12686 files batched, 1001 (11474) added so far); re-opening (prior size: 54975.6 KB)
+0011.825 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 11500 files added (on-disk size: 57819 KB)
+0011.828 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 11600 files added (on-disk size: 57819 KB)
+0011.831 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 11700 files added (on-disk size: 57819 KB)
+0011.834 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 11800 files added (on-disk size: 57819 KB)
+0011.837 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 11900 files added (on-disk size: 57819 KB)
+0011.840 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 12000 files added (on-disk size: 57819 KB)
+0011.843 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 12100 files added (on-disk size: 57819 KB)
+0011.846 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 12200 files added (on-disk size: 57819 KB)
+0011.849 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 12300 files added (on-disk size: 57819 KB)
+0011.852 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 12400 files added (on-disk size: 57819 KB)
+0011.854 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.8 MB, 12686 files batched, 1001 (12475) added so far); re-opening (prior size: 57819 KB)
+0012.597 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 12500 files added (on-disk size: 67686 KB)
+0012.600 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.tmp: 12600 files added (on-disk size: 67686 KB)
+0012.938 (0) Creating zip file manifest (backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.list-temp.tmp)
+0013.018 (0) Successfully created zip file manifest (size: 1142955)
+0013.472 (0) Created plugins zip (0) - 68476.5 KB in 13.4 s (5108.9 KB/s) (sha1: 3202b228693754b39d11beae0d0d28a7e2ed0916, sha256: ede11337aec7028859675e3226a0e484dce12a7ba74353c2d91ad26e89e70238)
+0013.482 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0013.483 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8b90279e2d9eec8c3e748b6cb620944c)
+0014.961 (0) Google Drive: quota usage: used=9303.7 MB, total=102400 MB, available=93096.3 MB
+0014.962 (0) Google Drive: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip: Attempting to upload to Google Drive (into folder id: 1rSp_EblSN84eL_80aajVWGWgU65eQCnq)
+0016.343 (0) Googledrive chunked upload: 1.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 21.5 / 38)
+0016.945 (0) Googledrive chunked upload: 4.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 21.5 / 38)
+0017.553 (0) Googledrive chunked upload: 10.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 21.5 / 38)
+0018.393 (0) Googledrive chunked upload: 22.4 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 21.5 / 38)
+0019.304 (0) Googledrive chunked upload: 46.4 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 21.5 / 38)
+0020.632 (0) Googledrive chunked upload: 94.2 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 21.5 / 38)
+0022.203 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0022.205 (0) Google Drive: OK: Archive backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip uploaded in 7.24 seconds
+0022.206 (0) Recording as successfully uploaded: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip
+0022.224 (0) Deleting local file: backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip: OK
+0022.228 (0) Beginning creation of dump of themes (split every: 400 MB)
+0022.295 (0) Total entities for the zip file: 379 directories, 1124 files (0 skipped as non-modified), 36.5 MB
+0022.299 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0022.303 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0022.307 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0022.310 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0022.313 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0022.316 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0022.319 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0022.322 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0022.325 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0022.329 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0022.330 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (33.7 MB, 1124 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0023.571 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.tmp: size is now: 17.50 MB
+0023.575 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.tmp: 1100 files added (on-disk size: 17910.6 KB)
+0023.716 (0) Creating zip file manifest (backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.list-temp.tmp)
+0023.722 (0) Successfully created zip file manifest (size: 89826)
+0023.850 (0) Created themes zip (0) - 20164.5 KB in 1.6 s (12453.7 KB/s) (sha1: 00bafee515d457ed54d3dfaa2f9f0f54d175e627, sha256: d997367d6fe2521960629878ce53debef39a02f1babd2df1da58a410e6fbcf09)
+0023.853 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0023.854 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8b90279e2d9eec8c3e748b6cb620944c)
+0024.190 (0) Google Drive: quota usage: used=9303.7 MB, total=102400 MB, available=93096.3 MB
+0024.191 (0) Google Drive: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip: Attempting to upload to Google Drive (into folder id: 1rSp_EblSN84eL_80aajVWGWgU65eQCnq)
+0025.533 (0) Googledrive chunked upload: 5.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19.7 / 38)
+0026.057 (0) Googledrive chunked upload: 15.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.7 / 38)
+0026.703 (0) Googledrive chunked upload: 35.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.7 / 38)
+0027.377 (0) Googledrive chunked upload: 76.2 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 19.7 / 38)
+0029.117 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0029.120 (0) Google Drive: OK: Archive backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip uploaded in 4.93 seconds
+0029.120 (0) Recording as successfully uploaded: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip
+0029.125 (0) Deleting local file: backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip: OK
+0029.128 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,wp-staging
+0029.129 (0) Looking for candidates to backup in: /home/u801958387/domains/humania.uy/public_html/wp-content/uploads
+0029.129 (0) finding files: elementor: adding to list (1)
+0029.130 (0) finding files: wp-file-manager-pro: adding to list (2)
+0029.131 (0) finding files: wpcode: adding to list (3)
+0029.131 (0) finding files: 2026: adding to list (4)
+0029.132 (0) finding files: rank-math: adding to list (5)
+0029.133 (0) finding files: astra-docs: adding to list (6)
+0029.133 (0) finding files: wpforms: adding to list (7)
+0029.134 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0029.143 (0) Total entities for the zip file: 20 directories, 195 files (0 skipped as non-modified), 68.8 MB
+0029.146 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0029.147 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 52.3 MB added on this batch (52.7 MB, 195 files batched, 132 (132) added so far); re-opening (prior size: 0 KB)
+0030.025 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-uploads.zip.tmp: size is now: 46.60 MB
+0030.027 (0) A useful amount of data was added after this amount of zip processing: 1.6 s (normalised: 1.6 s, rate: 34336.1 KB/s)
+0030.028 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.5708711147308, normalised_time=1.5608454949955, max_time=30.027237892151, data points known=1, old_max_bytes=54879516, new_max_bytes=209715200)
+0030.203 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-uploads.zip.tmp: size is now: 60.80 MB
+0030.206 (0) Creating zip file manifest (backup_2026-04-21-0546_humaniauy_c63690137b65-uploads.zip.list-temp.tmp)
+0030.208 (0) Successfully created zip file manifest (size: 11452)
+0030.663 (0) Created uploads zip (0) - 62306.2 KB in 1.5 s (40789.7 KB/s) (sha1: 4b20e3a1d2187211a75121afcc9ee4969e9cd898, sha256: 3e696884dc453116bda5286aaa3d7456e50670a31adfd7fc35e0389926bbc6be)
+0030.666 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0030.666 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8b90279e2d9eec8c3e748b6cb620944c)
+0030.974 (0) Google Drive: quota usage: used=9370.6 MB, total=102400 MB, available=93029.4 MB
+0030.976 (0) Google Drive: backup_2026-04-21-0546_humaniauy_c63690137b65-uploads.zip: Attempting to upload to Google Drive (into folder id: 1rSp_EblSN84eL_80aajVWGWgU65eQCnq)
+0032.346 (0) Googledrive chunked upload: 1.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19.5 / 38)
+0032.862 (0) Googledrive chunked upload: 4.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.5 / 38)
+0033.526 (0) Googledrive chunked upload: 11.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.5 / 38)
+0034.295 (0) Googledrive chunked upload: 24.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 19.5 / 38)
+0035.303 (0) Googledrive chunked upload: 50.9 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 19.5 / 38)
+0037.588 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0037.591 (0) Google Drive: OK: Archive backup_2026-04-21-0546_humaniauy_c63690137b65-uploads.zip uploaded in 6.61 seconds
+0037.592 (0) Recording as successfully uploaded: backup_2026-04-21-0546_humaniauy_c63690137b65-uploads.zip
+0037.609 (0) Deleting local file: backup_2026-04-21-0546_humaniauy_c63690137b65-uploads.zip: OK
+0037.612 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0037.614 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0037.618 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-mu-plugins.zip.tmp: size is now: 0.00 MB
+0037.621 (0) Creating zip file manifest (backup_2026-04-21-0546_humaniauy_c63690137b65-mu-plugins.zip.list-temp.tmp)
+0037.621 (0) Successfully created zip file manifest (size: 125)
+0037.625 (0) Created mu-plugins zip (0) - 5.1 KB in 0 s (480.9 KB/s) (sha1: a38fd82ffb1a5166fad2fa8b15c9e2a584d4a778, sha256: 8f586afff5a177a5361aecb23c073e6c47e546068ca6b3439a8b342438e7fe8a)
+0037.628 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0037.628 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8b90279e2d9eec8c3e748b6cb620944c)
+0037.900 (0) Google Drive: quota usage: used=9390.3 MB, total=102400 MB, available=93009.7 MB
+0037.901 (0) Google Drive: backup_2026-04-21-0546_humaniauy_c63690137b65-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1rSp_EblSN84eL_80aajVWGWgU65eQCnq)
+0039.936 (0) Googledrive chunked upload: 100 % uploaded
+0039.939 (0) Google Drive: OK: Archive backup_2026-04-21-0546_humaniauy_c63690137b65-mu-plugins.zip uploaded in 2.04 seconds
+0039.940 (0) Recording as successfully uploaded: backup_2026-04-21-0546_humaniauy_c63690137b65-mu-plugins.zip
+0039.942 (0) Deleting local file: backup_2026-04-21-0546_humaniauy_c63690137b65-mu-plugins.zip: OK
+0039.944 (0) Beginning backup of other directories found in the content directory (index: 0)
+0039.945 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0039.946 (0) Looking for candidates to backup in: /home/u801958387/domains/humania.uy/public_html/wp-content
+0039.947 (0) finding files: plugins: skipping: this is the plugins directory
+0039.947 (0) finding files: upgrade: skipping: excluded by options
+0039.948 (0) finding files: litespeed: adding to list (1)
+0039.949 (0) finding files: languages: adding to list (2)
+0039.949 (0) finding files: index.php: adding to list (3)
+0039.950 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0039.950 (0) finding files: uploads: skipping: this is the uploads directory
+0039.951 (0) finding files: updraft: skipping: this is the updraft directory
+0039.952 (0) finding files: themes: skipping: this is the themes directory
+0039.966 (0) Total entities for the zip file: 5 directories, 685 files (0 skipped as non-modified), 23.4 MB
+0039.969 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0039.972 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0039.975 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0039.979 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0039.982 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0039.985 (0) Zip: backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0041.030 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip.tmp: size is now: 6.80 MB
+0041.036 (0) Creating zip file manifest (backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip.list-temp.tmp)
+0041.042 (0) Successfully created zip file manifest (size: 50017)
+0041.096 (0) Created others zip (0) - 6996.1 KB in 1.1 s (6126.3 KB/s) (sha1: 0a80ba0d7d83c6f391c0c4361b5090151155b6bf, sha256: 4af73cf967fae505ea160f6ff003b6f8d9c2e81feeffbe795360377e21b730d6)
+0041.099 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0041.099 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8b90279e2d9eec8c3e748b6cb620944c)
+0041.463 (0) Google Drive: quota usage: used=9451.1 MB, total=102400 MB, available=92948.9 MB
+0041.464 (0) Google Drive: backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip: Attempting to upload to Google Drive (into folder id: 1rSp_EblSN84eL_80aajVWGWgU65eQCnq)
+0042.773 (0) Googledrive chunked upload: 14.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19.6 / 38)
+0043.415 (0) Googledrive chunked upload: 43.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.6 / 38)
+0045.134 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0045.136 (0) Google Drive: OK: Archive backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip uploaded in 3.67 seconds
+0045.137 (0) Recording as successfully uploaded: backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip
+0045.140 (0) Deleting local file: backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip: OK
+0045.145 (0) Saving backup status to database (elements: 10)
+0045.148 (0) Beginning creation of database dump (WordPress DB)
+0045.149 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0045.151 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0045.176 (0) Output: /*M!999999\- enable the sandbox mode */ \n/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*M!100616 SET @OLD_NOTE_VERBOSITY=@@NOTE_VERBOSITY, NOTE_VERBOSITY=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_c (truncated - 1604 bytes total)
+0045.177 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0045.182 (0) Table wp_options: Total expected rows (via COUNT): 532
+0045.201 (0) Table wp_options: Rows added in this batch (next record: 9711): 528 (uncompressed bytes in this segment=1105243) in 0.02 seconds
+0045.204 (0) Table wp_options: finishing file(s) (2, 104.1 KB)
+0045.207 (0) Table wp_users: Total expected rows (via COUNT): 2
+0045.208 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.210 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1447) in 0.00 seconds
+0045.212 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0045.216 (0) Table wp_usermeta: Total expected rows (via COUNT): 78
+0045.217 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.218 (0) Table wp_usermeta: Rows added in this batch (next record: 94): 78 (uncompressed bytes in this segment=7129) in 0.00 seconds
+0045.222 (0) Table wp_usermeta: finishing file(s) (2, 2.4 KB)
+0045.226 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 91
+0045.226 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.229 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 417): 91 (uncompressed bytes in this segment=46506) in 0.01 seconds
+0045.233 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 3.3 KB)
+0045.236 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0045.238 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.00 seconds
+0045.241 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0045.244 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 5
+0045.245 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.246 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=744) in 0.00 seconds
+0045.249 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0045.252 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 257
+0045.253 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.256 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 1223): 257 (uncompressed bytes in this segment=22992) in 0.00 seconds
+0045.259 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 2.3 KB)
+0045.263 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0045.265 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.00 seconds
+0045.268 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0045.271 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0045.273 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1466) in 0.00 seconds
+0045.276 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0045.279 (0) Table wp_links: Total expected rows (via COUNT): 0
+0045.280 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.00 seconds
+0045.283 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0045.291 (0) Table wp_postmeta: Total expected rows (approximate): 2557
+0045.324 (0) Table wp_postmeta: Rows added in this batch (next record: 4256): 2474 (uncompressed bytes in this segment=2597679) in 0.04 seconds
+0045.328 (0) Table wp_postmeta: finishing file(s) (2, 135.6 KB)
+0045.334 (0) Table wp_posts: Total expected rows (via COUNT): 474
+0045.335 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.361 (0) Table wp_posts: Rows added in this batch (next record: 528): 474 (uncompressed bytes in this segment=1353838) in 0.03 seconds
+0045.366 (0) Table wp_posts: finishing file(s) (2, 89.1 KB)
+0045.369 (0) Table wp_term_relationships: Total expected rows (approximate): 112
+0045.371 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 112 (uncompressed bytes in this segment=2315) in 0.00 seconds
+0045.374 (0) Table wp_term_relationships: finishing file(s) (2, 0.7 KB)
+0045.379 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 35
+0045.379 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.381 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 41): 35 (uncompressed bytes in this segment=2633) in 0.01 seconds
+0045.385 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.9 KB)
+0045.390 (0) Table wp_termmeta: Total expected rows (via COUNT): 2
+0045.391 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.392 (0) Table wp_termmeta: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=923) in 0.00 seconds
+0045.395 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0045.398 (0) Table wp_terms: Total expected rows (via COUNT): 35
+0045.398 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.400 (0) Table wp_terms: Rows added in this batch (next record: 41): 35 (uncompressed bytes in this segment=2042) in 0.00 seconds
+0045.403 (0) Table wp_terms: finishing file(s) (2, 0.9 KB)
+0045.405 (0) Table wp_e_events: Total expected rows (via COUNT): 3
+0045.406 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.408 (0) Table wp_e_events: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1170) in 0.00 seconds
+0045.410 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0045.412 (0) Table wp_hostinger_reach_carts: Total expected rows (approximate): 0
+0045.414 (0) Table wp_hostinger_reach_carts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=831) in 0.00 seconds
+0045.416 (0) Table wp_hostinger_reach_carts: finishing file(s) (2, 0.4 KB)
+0045.419 (0) Table wp_hostinger_reach_contact_lists: Total expected rows (via COUNT): 0
+0045.420 (0) Table wp_hostinger_reach_contact_lists: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=583) in 0.00 seconds
+0045.423 (0) Table wp_hostinger_reach_contact_lists: finishing file(s) (2, 0.3 KB)
+0045.426 (0) Table wp_hostinger_reach_forms: Total expected rows (via COUNT): 0
+0045.427 (0) Table wp_hostinger_reach_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=828) in 0.00 seconds
+0045.430 (0) Table wp_hostinger_reach_forms: finishing file(s) (2, 0.4 KB)
+0045.433 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0045.434 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=577) in 0.00 seconds
+0045.437 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0045.441 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0045.441 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1109) in 0.00 seconds
+0045.444 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0045.448 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 105
+0045.448 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.451 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 195): 105 (uncompressed bytes in this segment=6868) in 0.00 seconds
+0045.454 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 1.4 KB)
+0045.458 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 20
+0045.459 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.461 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 536): 20 (uncompressed bytes in this segment=1027) in 0.00 seconds
+0045.464 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.5 KB)
+0045.467 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0045.469 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=478) in 0.00 seconds
+0045.472 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0045.476 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0045.477 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=659) in 0.00 seconds
+0045.481 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0045.487 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0045.489 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.00 seconds
+0045.492 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0045.496 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0045.497 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.00 seconds
+0045.500 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0045.504 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0045.505 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.507 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=979) in 0.00 seconds
+0045.510 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0045.510 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/u801958387/domains/humania.uy/public_html/wp-content/updraft/backup_2026-04-21-0546_humaniauy_c63690137b65-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0045.511 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_options.table.tmpr9712.gz (1/29/fopen): adding to final database dump
+0045.514 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_options.table.gz (2/29/fopen): adding to final database dump
+0045.515 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_users.table.tmpr3.gz (3/29/fopen): adding to final database dump
+0045.515 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_users.table.gz (4/29/fopen): adding to final database dump
+0045.516 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_usermeta.table.tmpr95.gz (5/29/fopen): adding to final database dump
+0045.517 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_usermeta.table.gz (6/29/fopen): adding to final database dump
+0045.517 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_actionscheduler_actions.table.tmpr418.gz (7/29/fopen): adding to final database dump
+0045.518 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_actionscheduler_actions.table.gz (8/29/fopen): adding to final database dump
+0045.519 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/29/fopen): adding to final database dump
+0045.520 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_actionscheduler_claims.table.gz (10/29/fopen): adding to final database dump
+0045.520 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_actionscheduler_groups.table.tmpr6.gz (11/29/fopen): adding to final database dump
+0045.521 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_actionscheduler_groups.table.gz (12/29/fopen): adding to final database dump
+0045.521 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_actionscheduler_logs.table.tmpr1224.gz (13/29/fopen): adding to final database dump
+0045.522 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_actionscheduler_logs.table.gz (14/29/fopen): adding to final database dump
+0045.523 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_commentmeta.table.tmpr0.gz (15/29/fopen): adding to final database dump
+0045.523 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_commentmeta.table.gz (16/29/fopen): adding to final database dump
+0045.524 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_comments.table.tmpr0.gz (17/29/fopen): adding to final database dump
+0045.524 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_comments.table.gz (18/29/fopen): adding to final database dump
+0045.525 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_links.table.tmpr0.gz (19/29/fopen): adding to final database dump
+0045.526 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_links.table.gz (20/29/fopen): adding to final database dump
+0045.527 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_postmeta.table.tmpr4257.gz (21/29/fopen): adding to final database dump
+0045.530 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_postmeta.table.gz (22/29/fopen): adding to final database dump
+0045.531 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_posts.table.tmpr529.gz (23/29/fopen): adding to final database dump
+0045.534 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_posts.table.gz (24/29/fopen): adding to final database dump
+0045.535 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_term_relationships.table.tmpr100001.gz (25/29/fopen): adding to final database dump
+0045.536 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_term_relationships.table.gz (26/29/fopen): adding to final database dump
+0045.536 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_term_taxonomy.table.tmpr42.gz (27/29/fopen): adding to final database dump
+0045.537 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_term_taxonomy.table.gz (28/29/fopen): adding to final database dump
+0045.538 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_termmeta.table.tmpr4.gz (29/29/fopen): adding to final database dump
+0045.539 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_termmeta.table.gz (30/29/fopen): adding to final database dump
+0045.540 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_terms.table.tmpr42.gz (31/29/fopen): adding to final database dump
+0045.541 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_terms.table.gz (32/29/fopen): adding to final database dump
+0045.542 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_e_events.table.tmpr4.gz (33/29/fopen): adding to final database dump
+0045.543 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_e_events.table.gz (34/29/fopen): adding to final database dump
+0045.543 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_hostinger_reach_carts.table.tmpr1.gz (35/29/fopen): adding to final database dump
+0045.544 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_hostinger_reach_carts.table.gz (36/29/fopen): adding to final database dump
+0045.545 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_hostinger_reach_contact_lists.table.tmpr0.gz (37/29/fopen): adding to final database dump
+0045.546 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_hostinger_reach_contact_lists.table.gz (38/29/fopen): adding to final database dump
+0045.547 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_hostinger_reach_forms.table.tmpr0.gz (39/29/fopen): adding to final database dump
+0045.547 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_hostinger_reach_forms.table.gz (40/29/fopen): adding to final database dump
+0045.548 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_litespeed_url.table.tmpr0.gz (41/29/fopen): adding to final database dump
+0045.550 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_litespeed_url.table.gz (42/29/fopen): adding to final database dump
+0045.550 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_litespeed_url_file.table.tmpr0.gz (43/29/fopen): adding to final database dump
+0045.551 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_litespeed_url_file.table.gz (44/29/fopen): adding to final database dump
+0045.552 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_rank_math_internal_links.table.tmpr196.gz (45/29/fopen): adding to final database dump
+0045.553 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_rank_math_internal_links.table.gz (46/29/fopen): adding to final database dump
+0045.553 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_rank_math_internal_meta.table.tmpr537.gz (47/29/fopen): adding to final database dump
+0045.554 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_rank_math_internal_meta.table.gz (48/29/fopen): adding to final database dump
+0045.555 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_wpfm_backup.table.tmpr0.gz (49/29/fopen): adding to final database dump
+0045.556 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_wpfm_backup.table.gz (50/29/fopen): adding to final database dump
+0045.557 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_wpforms_logs.table.tmpr0.gz (51/29/fopen): adding to final database dump
+0045.557 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_wpforms_logs.table.gz (52/29/fopen): adding to final database dump
+0045.558 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (53/29/fopen): adding to final database dump
+0045.559 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_wpforms_payment_meta.table.gz (54/29/fopen): adding to final database dump
+0045.560 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_wpforms_payments.table.tmpr0.gz (55/29/fopen): adding to final database dump
+0045.561 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_wpforms_payments.table.gz (56/29/fopen): adding to final database dump
+0045.561 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_wpforms_tasks_meta.table.tmpr7.gz (57/29/fopen): adding to final database dump
+0045.562 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db-table-wp_wpforms_tasks_meta.table.gz (58/29/fopen): adding to final database dump
+0045.565 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db.gz: finished writing out complete database file (349.2 KB)
+0045.572 (0) Total database tables backed up: 29 (backup_2026-04-21-0546_humaniauy_c63690137b65-db.gz, size: 357738, sha1: 4a11349bc1c4d5c9f8efc7beece7eeb75b2bbc94, sha256: 2c1d5d081b67ace65561371bfe22ea6c8bc5a35ccebdae748a025985ae3e8c16)
+0045.577 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip: plugins: This file has already been successfully uploaded
+0045.577 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip: themes: This file has already been successfully uploaded
+0045.578 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-uploads.zip: uploads: This file has already been successfully uploaded
+0045.579 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0045.579 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip: others: This file has already been successfully uploaded
+0045.580 (0) backup_2026-04-21-0546_humaniauy_c63690137b65-db.gz: db: This file has not yet been successfully uploaded: will queue
+0045.581 (0) Saving backup history. Total backup size: 154.6 MB
+0045.583 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0045.586 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0045.587 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8b90279e2d9eec8c3e748b6cb620944c)
+0045.921 (0) Google Drive: quota usage: used=9451.1 MB, total=102400 MB, available=92948.9 MB
+0045.922 (0) Google Drive: backup_2026-04-21-0546_humaniauy_c63690137b65-db.gz: Attempting to upload to Google Drive (into folder id: 1rSp_EblSN84eL_80aajVWGWgU65eQCnq)
+0047.957 (0) Googledrive chunked upload: 100 % uploaded
+0047.959 (0) Google Drive: OK: Archive backup_2026-04-21-0546_humaniauy_c63690137b65-db.gz uploaded in 2.04 seconds
+0047.960 (0) Recording as successfully uploaded: backup_2026-04-21-0546_humaniauy_c63690137b65-db.gz
+0047.961 (0) Deleting local file: backup_2026-04-21-0546_humaniauy_c63690137b65-db.gz: OK
+0047.963 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0047.964 (0) Number of backup sets in history: 6; groups (db): 1
+0047.965 (0) Examining (for databases) backup set with group_id=0, nonce=c63690137b65, datestamp=1776761181 (Apr 21 2026 08:46:21)
+0047.965 (0) This backup set is the backup set just made, so will not be deleted.
+0047.965 (0) Examining (for databases) backup set with group_id=0, nonce=3d33f2271c11, datestamp=1776066555 (Apr 13 2026 07:49:15)
+0047.965 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.966 (0) Examining (for databases) backup set with group_id=0, nonce=aa1b81b5bf01, datestamp=1775426024 (Apr 05 2026 21:53:44)
+0047.966 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.966 (0) Examining (for databases) backup set with group_id=0, nonce=260aff407fbe, datestamp=1774835182 (Mar 30 2026 01:46:22)
+0047.966 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.966 (0) Examining (for databases) backup set with group_id=0, nonce=1300b0b3d177, datestamp=1774266414 (Mar 23 2026 11:46:54)
+0047.966 (0) 1774266414: db: this set includes a database (backup_2026-03-23-0846_humaniauy_1300b0b3d177-db.gz); db count is now 4
+0047.966 (0) 1774266414: db: over retain limit (4); will delete this database
+0050.521 (0) Google Drive: backup_2026-03-23-0846_humaniauy_1300b0b3d177-db.gz: Deletion successful
+0050.524 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0050.524 (0) Examining (for databases) backup set with group_id=0, nonce=0a11518c0970, datestamp=1769377732 (Jan 25 2026 21:48:52)
+0050.524 (0) This backup set (1769377732) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0050.524 (0) Number of backup sets in history: 6; groups (files): 1
+0050.525 (0) Examining (for files) backup set with nonce=c63690137b65, datestamp=1776761181 (Apr 21 2026 08:46:21)
+0050.525 (0) This backup set is the backup set just made, so will not be deleted.
+0050.526 (0) This backup set is the backup set just made, so will not be deleted.
+0050.526 (0) This backup set is the backup set just made, so will not be deleted.
+0050.526 (0) This backup set is the backup set just made, so will not be deleted.
+0050.526 (0) This backup set is the backup set just made, so will not be deleted.
+0050.526 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0050.527 (0) Examining (for files) backup set with nonce=3d33f2271c11, datestamp=1776066555 (Apr 13 2026 07:49:15)
+0050.527 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0050.527 (0) Examining (for files) backup set with nonce=aa1b81b5bf01, datestamp=1775426024 (Apr 05 2026 21:53:44)
+0050.527 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0050.527 (0) Examining (for files) backup set with nonce=260aff407fbe, datestamp=1774835182 (Mar 30 2026 01:46:22)
+0050.527 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0050.527 (0) Examining (for files) backup set with nonce=1300b0b3d177, datestamp=1774266414 (Mar 23 2026 11:46:54)
+0050.527 (0) plugins: over retain limit (4); will delete this file entity
+0050.527 (0) themes: over retain limit (4); will delete this file entity
+0050.527 (0) uploads: over retain limit (4); will delete this file entity
+0050.527 (0) mu-plugins: over retain limit (4); will delete this file entity
+0050.527 (0) others: over retain limit (4); will delete this file entity
+0052.429 (0) Google Drive: backup_2026-03-23-0846_humaniauy_1300b0b3d177-others.zip: Deletion successful
+0052.964 (0) Google Drive: backup_2026-03-23-0846_humaniauy_1300b0b3d177-mu-plugins.zip: Deletion successful
+0053.538 (0) Google Drive: backup_2026-03-23-0846_humaniauy_1300b0b3d177-uploads.zip: Deletion successful
+0055.157 (0) Google Drive: backup_2026-03-23-0846_humaniauy_1300b0b3d177-themes.zip: Deletion successful
+0055.818 (0) Google Drive: backup_2026-03-23-0846_humaniauy_1300b0b3d177-plugins.zip: Deletion successful
+0055.821 (0) This backup set is now empty; will remove from history
+0055.822 (0) Deleting log file (log.1300b0b3d177.txt)
+0055.823 (0) Examining (for files) backup set with nonce=0a11518c0970, datestamp=1769377732 (Jan 25 2026 21:48:52)
+0055.823 (0) This backup set (1769377732) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0055.823 (0) This backup set (1769377732) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0055.823 (0) This backup set (1769377732) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0055.823 (0) This backup set (1769377732) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0055.823 (0) This backup set (1769377732) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0055.823 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0055.824 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0055.828 (0) Resume backup (c63690137b65, 0): finish run
+0055.830 (0) Decremented the semaphore (fd) by 1
+0055.831 (0) Semaphore (fd) unlocked
+0055.831 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0055.833 (0) The backup succeeded and is now complete
+0055.834 (0) Deleting zip manifest (backup_2026-04-21-0546_humaniauy_c63690137b65-plugins.zip.list.tmp)
+0055.835 (0) Deleting zip manifest (backup_2026-04-21-0546_humaniauy_c63690137b65-themes.zip.list.tmp)
+0055.835 (0) Deleting zip manifest (backup_2026-04-21-0546_humaniauy_c63690137b65-uploads.zip.list.tmp)
+0055.836 (0) Deleting zip manifest (backup_2026-04-21-0546_humaniauy_c63690137b65-mu-plugins.zip.list.tmp)
+0055.837 (0) Deleting zip manifest (backup_2026-04-21-0546_humaniauy_c63690137b65-others.zip.list.tmp)
+0055.837 (0) Fetching RSS news feed
+0057.328 (0) Fetched RSS news feed; result is a: SimplePie\SimplePie
+0057.359 (0) Sending email ('Archivos y base de datos (Copia de seguridad completa)') report (attachments: 0, size: 0 KB) to: perei...
+0057.448 (0) La copia de seguridad se ha realizado correctamente y se ha completado
