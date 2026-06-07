@@ -2,25 +2,24 @@
 <html lang="es" data-bs-theme="dark">
 <head>
 	<meta charset="utf-8">
-	<title>HumanIA</title>
+	<title>HumanIA 2026 — IA · Ciberseguridad · Conciencia digital</title>
 
 	<!-- SEO Meta Tags -->
-	<meta name="robots" content="follow, noindex">
+	<meta name="robots" content="follow, index">
+	<meta name="description" content="HumanIA 2026 — Encuentro institucional sobre inteligencia artificial, ciberseguridad y conciencia digital. 8 y 9 de setiembre, Radisson Victoria Plaza, Montevideo.">
 	<meta property="og:locale" content="es_ES">
-	<meta property="og:type" content="article">
-	<meta property="og:title" content="Page Not Found - humania.uy">
-
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="HumanIA 2026 — IA · Ciberseguridad · Conciencia digital">
+	<meta property="og:description" content="Encuentro institucional sobre IA, ciberseguridad y conciencia digital. Montevideo, 8 y 9 de setiembre 2026.">
 	<meta property="og:image" content="https://humania.uy/wp-content/uploads/2026/01/cropped-LOGO-HumanIA.png">
 	<meta property="og:site_name" content="humania.uy">
-	<meta property="og:image:secure_url"
-		  content="https://humania.uy/wp-content/uploads/2026/01/cropped-LOGO-HumanIA.png">
+	<meta property="og:image:secure_url" content="https://humania.uy/wp-content/uploads/2026/01/cropped-LOGO-HumanIA.png">
 	<meta property="og:image:width" content="1241">
 	<meta property="og:image:height" content="657">
-	<meta property="og:image:alt"
-		  content="Logotipo de Human-IA, iniciativa educativa e institucional sobre conciencia humana y tecnología">
+	<meta property="og:image:alt" content="Logotipo de HumanIA, iniciativa educativa e institucional sobre conciencia humana y tecnología">
 	<meta property="og:image:type" content="image/png">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Page Not Found - humania.uy">
+	<meta name="twitter:title" content="HumanIA 2026">
 	<meta name="twitter:image" content="https://humania.uy/wp-content/uploads/2026/01/cropped-LOGO-HumanIA.png">
 
 	<!-- Viewport -->
@@ -40,118 +39,67 @@
 	<meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
 
+	<!-- Google Fonts: Poppins -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+
 	<!-- Vendor Styles -->
 	<link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
 	<link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
 
 	<!-- Main Theme Styles + Bootstrap -->
 	<link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+
+	<!-- HumanIA Custom Styles -->
+	<link rel="stylesheet" media="screen" href="assets/css/humania.css">
+
 	<script src="assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js"></script>
 
 	<!-- Page loading styles -->
 	<style>
-        .page-loading {
-            position: fixed;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            -webkit-transition: all .4s .2s ease-in-out;
-            transition: all .4s .2s ease-in-out;
-            background-color: #fff;
-            opacity: 0;
-            visibility: hidden;
-            z-index: 9999;
-        }
-
-        [data-bs-theme="dark"] .page-loading {
-            background-color: #0b0f19;
-        }
-
-        .page-loading.active {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .page-loading-inner {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-            -webkit-transition: opacity .2s ease-in-out;
-            transition: opacity .2s ease-in-out;
-            opacity: 0;
-        }
-
-        .page-loading.active > .page-loading-inner {
-            opacity: 1;
-        }
-
-        .page-loading-inner > span {
-            display: block;
-            font-size: 1rem;
-            font-weight: normal;
-            color: #9397ad;
-        }
-
-        [data-bs-theme="dark"] .page-loading-inner > span {
-            color: #fff;
-            opacity: .6;
-        }
-
-        .page-spinner {
-            display: inline-block;
-            width: 2.75rem;
-            height: 2.75rem;
-            margin-bottom: .75rem;
-            vertical-align: text-bottom;
-            border: .15em solid #b4b7c9;
-            border-right-color: transparent;
-            border-radius: 50%;
-            -webkit-animation: spinner .75s linear infinite;
-            animation: spinner .75s linear infinite;
-        }
-
-        [data-bs-theme="dark"] .page-spinner {
-            border-color: rgba(255, 255, 255, .4);
-            border-right-color: transparent;
-        }
-
-        @-webkit-keyframes spinner {
-            100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-
-        @keyframes spinner {
-            100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
-
-        .text-accent {
-            color: #9df801 !important;
-        }
+		.page-loading {
+			position: fixed; top: 0; right: 0; bottom: 0; left: 0;
+			width: 100%; height: 100%;
+			-webkit-transition: all .4s .2s ease-in-out;
+			transition: all .4s .2s ease-in-out;
+			background-color: #080320;
+			opacity: 0; visibility: hidden; z-index: 9999;
+		}
+		.page-loading.active { opacity: 1; visibility: visible; }
+		.page-loading-inner {
+			position: absolute; top: 50%; left: 0; width: 100%; text-align: center;
+			-webkit-transform: translateY(-50%); transform: translateY(-50%);
+			-webkit-transition: opacity .2s ease-in-out; transition: opacity .2s ease-in-out;
+			opacity: 0;
+		}
+		.page-loading.active > .page-loading-inner { opacity: 1; }
+		.page-loading-inner > span {
+			display: block; font-size: 1rem; font-weight: normal;
+			color: rgba(255, 255, 255, 0.5);
+		}
+		.page-spinner {
+			display: inline-block; width: 2.75rem; height: 2.75rem; margin-bottom: .75rem;
+			vertical-align: text-bottom;
+			border: .15em solid rgba(124, 58, 237, 0.4);
+			border-right-color: transparent;
+			border-radius: 50%;
+			-webkit-animation: spinner .75s linear infinite;
+			animation: spinner .75s linear infinite;
+		}
+		@-webkit-keyframes spinner { 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+		@keyframes spinner { 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
 	</style>
 
 	<!-- Page loading scripts -->
 	<script>
-        (function () {
-            window.onload = function () {
-                const preloader = document.querySelector('.page-loading');
-                preloader.classList.remove('active');
-                setTimeout(function () {
-                    preloader.remove();
-                }, 1000);
-            };
-        })();
+		(function () {
+			window.onload = function () {
+				const preloader = document.querySelector('.page-loading');
+				preloader.classList.remove('active');
+				setTimeout(function () { preloader.remove(); }, 1000);
+			};
+		})();
 	</script>
 </head>
 
@@ -163,26 +111,34 @@
 <div class="page-loading active">
 	<div class="page-loading-inner">
 		<div class="page-spinner"></div>
-		<span>Loading...</span>
+		<span>Cargando...</span>
 	</div>
 </div>
 
 
-<!-- Page wrapper for sticky footer -->
-<!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
+<!-- Page wrapper -->
 <main class="page-wrapper">
 
 
-	<header class="header navbar navbar-expand-lg position-absolute navbar-sticky">
+	<!-- =====================================================
+	     NAVBAR
+	     ===================================================== -->
+	<header class="header navbar navbar-expand-lg position-absolute navbar-sticky"
+	        style="background: rgba(8,3,32,0.82); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);">
 		<div class="container px-3">
+
+			<!-- Logo en navbar -->
+			<a class="navbar-brand me-auto me-lg-4" href="#top">
+				<img src="assets/logo.png" alt="HumanIA" class="hn-nav-logo">
+			</a>
+
 			<div id="navbarNav" class="offcanvas offcanvas-end">
 				<div class="offcanvas-header border-bottom">
-					<h5 class="offcanvas-title">Menu</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					<h5 class="offcanvas-title">Menú</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
 				</div>
 				<div class="offcanvas-body">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
 						<li class="nav-item">
 							<a href="#evento-2026" class="nav-link">Inicio</a>
 						</li>
@@ -190,505 +146,474 @@
 							<a href="#que-es-humania" class="nav-link">Qué es HumanIA</a>
 						</li>
 						<li class="nav-item">
+							<a href="#speakers" class="nav-link">Speakers</a>
+						</li>
+						<li class="nav-item">
 							<a href="#participar" class="nav-link">Participar</a>
 						</li>
 					</ul>
 				</div>
 			</div>
-			<div class="form-check form-switch mode-switch pe-lg-1 ms-auto me-4" data-bs-toggle="mode">
-				<input type="checkbox" class="form-check-input" id="theme-mode">
-				<label class="form-check-label d-none d-sm-block" for="theme-mode">Light</label>
-				<label class="form-check-label d-none d-sm-block" for="theme-mode">Dark</label>
-			</div>
-			<button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+			<button type="button" class="navbar-toggler ms-sm-3" data-bs-toggle="offcanvas"
+			        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+			        aria-label="Abrir menú de navegación">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 		</div>
 	</header>
 
 
+	<!-- =====================================================
+	     1. HERO
+	     ===================================================== -->
+	<section class="hn-hero">
+		<div class="hn-hero-bg" aria-hidden="true"></div>
 
-	<!-- Hero + BG parallax -->
-	<section id="evento-2026" class="jarallax bg-dark min-vh-100 pb-5" data-jarallax data-speed="0.4" data-bs-theme="dark">
-		<span class="position-absolute top-0 start-0 w-100 h-100"
-			  style="background: radial-gradient(116.18% 118% at 50% 100%, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 41.83%, rgba(241, 244, 253, 0.07) 82.52%);"></span>
-		<div class="jarallax-img" style="background-image: url(assets/hero-bg2.png);"></div>
-		<div class="min-vh-100 d-flex flex-column py-5">
+		<div class="hn-hero-content">
+			<!-- Logo principal -->
+			<img src="assets/logo.png" alt="HumanIA — Conciencia digital, IA y ciberseguridad" class="hn-hero-logo">
 
-			<div class="container position-relative text-center zindex-5 pt-4 pt-md-5 pb-5 mt-auto">
-				<div class="row mt-5">
-					<div class="col-xl-10 mx-auto">
-						<h2 class="h3 text-gradient-primary mb-3">
-							Edición 2026
-						</h2>
-						<h1 class="display-1 mb-md-1 pb-1">
-							<img src="assets/logo.png" alt="HumanIA logo" style="max-width: 500px; width: 100%;">
-						</h1>
-						<div class="d-flex justify-content-center text-start mb-2">
-							<i class="bx bx-map fs-4 text-primary me-2"></i>
-							<div class="fs-xl">Radisson Victoria Plaza Hotel
-								<br>
-								Montevideo, Uruguay
-							</div>
+			<!-- Frase -->
+			<p class="hn-hero-phrase">
+				Hoy, el principal riesgo<br>ya no es técnico.<br>
+				<span class="hn-accent-violet">Es humano.</span>
+			</p>
+
+			<!-- Badge fecha y lugar — imagen con diseño curvo original -->
+			<img src="assets/diaylugar.png"
+			     alt="8 Y 9 DE SETIEMBRE — Radisson Victoria Plaza"
+			     class="hn-badge-img">
+		</div>
+	</section>
+
+
+	<!-- =====================================================
+	     2. IMAGEN + CARD EVENTO
+	     ===================================================== -->
+	<section id="evento-2026" class="hn-event-section">
+		<div class="container">
+			<div class="row g-4 align-items-stretch">
+				<div class="col-lg-6">
+					<div class="hn-event-img-wrap">
+						<img src="assets/photo-2.jpeg" alt="Imagen referencial del evento HumanIA">
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="hn-event-card">
+						<h2>HumanIA 2026</h2>
+
+						<div class="hn-meta-row">
+							<i class="bx bx-map"></i>
+							<span>Radisson Victoria Plaza Hotel<br>Montevideo, Uruguay</span>
 						</div>
-						<div class="d-flex justify-content-center text-start mb-2">
-							<i class="bx bx-calendar fs-4 text-primary me-2"></i>
-							<div class="fs-xl">8 y 9 de septiembre de 2026</div>
+						<div class="hn-meta-row">
+							<i class="bx bx-hash"></i>
+							<span>IA · Ciberseguridad · Conciencia digital · Impacto humano</span>
 						</div>
-						<div class="d-flex justify-content-center text-start mb-4">
-							<i class="bx bx-hash fs-4 text-primary me-2"></i>
-							<div class="fs-xl">IA · Ciberseguridad · Conciencia digital · Impacto humano</div>
-						</div>
-						<div class="rounded-3 py-4 px-4 bg-secondary mx-auto mb-md-5 mb-4" style="max-width: 48rem;">
-							<p>
-								Un encuentro presencial de dos jornadas consecutivas que forma parte del proceso
-								institucional HumanIA / Firewall Digital Consciente (FiDiCon).
+
+						<div class="hn-event-desc">
+							<p class="mb-2">
+								Reúne a referentes del ámbito educativo, institucional, productivo y tecnológico.
 							</p>
 							<p class="mb-0">
-								HumanIA 2026 aborda el impacto de la inteligencia artificial, la ciberseguridad y la
-								transformación digital desde una perspectiva humana, ética y responsable, priorizando
-								la formación de criterio, el diálogo interinstitucional y la reflexión aplicada.
+								Es una instancia de encuentro dentro de un camino de largo plazo, con foco en
+								inteligencia artificial, ciberseguridad y conciencia digital.
 							</p>
 						</div>
-						<div class="d-flex flex-column flex-sm-row justify-content-center py-2 py-lg-3">
-							<a href="mailto:info@humania.uy"
-							   class="btn btn-lg btn-primary shadow-primary me-sm-3 me-xl-4 mb-3">Quiero participar</a>
-							<a href="mailto:info@humania.uy" class="btn btn-lg btn-secondary shadow-secondary  mb-3">Quiero
-								ser sponsor</a>
-						</div>
-
-
 					</div>
 				</div>
 			</div>
-			<!--      <div class="container mt-auto pb-lg-2 pb-xl-3">-->
-			<!--        <ul class="list-unstyled d-flex align-items-start justify-content-center flex-wrap text-nowrap mt-xl-0 mt-md-n4 mt-sm-n3 mt-n2 ms-md-n4 ms-n3 mb-0 pt-lg-5 pt-md-4">-->
-			<!--          <li class="d-flex align-items-center text-body mt-md-4 mt-sm-3 mt-2 ms-md-4 ms-3">-->
-			<!--            <i class="bx bx-check-circle me-2 fs-5 text-primary"></i>-->
-			<!--            Extensive work experience-->
-			<!--          </li>-->
-			<!--          <li class="d-flex align-items-center text-body mt-md-4 mt-sm-3 mt-2 ms-md-4 ms-3">-->
-			<!--            <i class="bx bx-check-circle me-2 fs-5 text-primary"></i>-->
-			<!--            Flexible working conditions-->
-			<!--          </li>-->
-			<!--          <li class="d-flex align-items-center text-body mt-md-4 mt-sm-3 mt-2 ms-md-4 ms-3">-->
-			<!--            <i class="bx bx-check-circle me-2 fs-5 text-primary"></i>-->
-			<!--            Large and friendly team-->
-			<!--          </li>-->
-			<!--        </ul>-->
-			<!--      </div>-->
 		</div>
-		<section id="que-es-humania" class="container pt-md-2 pb-5 mb-5 align-content-center">
-			<div class="row">
-				<div class="col-md-5">
-					<div class="card h-100 border-0 overflow-hidden px-md-4">
-						<span class="bg-gradient-primary position-absolute top-0 start-0 w-100 h-100 opacity-10 d-none d-md-block"></span>
-						<div class="card-body d-flex flex-column align-items-center justify-content-center position-relative zindex-2 p-0 pb-2 p-lg-4">
-							<h2 class="h1 text-center text-md-start p-lg-4">¿Qué es HumanIA?</h2>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-7">
-					<div class="card border-0 shadow-sm p-4 p-xxl-5">
-						<!--          <div class="d-flex justify-content-between pb-4 mb-2">-->
-						<!--                <span class="btn btn-icon btn-primary btn-lg shadow-primary pe-none">-->
-						<!--                  <i class="bx bxs-quote-left"></i>-->
-						<!--                </span>-->
-						<!--            <div class="d-flex">-->
-						<!--              <button type="button" id="testimonials-prev" class="btn btn-prev btn-icon btn-sm me-2" aria-label="Previous">-->
-						<!--                <i class="bx bx-chevron-left"></i>-->
-						<!--              </button>-->
-						<!--              <button type="button" id="testimonials-next" class="btn btn-next btn-icon btn-sm ms-2" aria-label="Next">-->
-						<!--                <i class="bx bx-chevron-right"></i>-->
-						<!--              </button>-->
-						<!--            </div>-->
-						<!--          </div>-->
-
-						<!-- Slider -->
-						<blockquote class="card-body p-0 mb-0">
-							<p class="fs-lg mb-3">
-								HumanIA es espacio para pensar, comprender y asumir con criterio el impacto de la
-								inteligencia artificial, la ciberseguridad y la transformación digital en la vida
-								personal,
-								educativa, productiva e institucional.
-							</p>
-							<p class="fs-lg mb-3">
-								La tecnología no es neutral. Amplifica decisiones humanas. Por eso, la conciencia, el
-								criterio y
-								la formación son hoy la verdadera línea de defensa.
-							</p>
-							<p class="fs-lg mb-0">
-								HumanIA existe para fortalecer la conciencia humana en la era digital. Para quienes
-								entienden
-								que el desafío digital no se resuelve solo con más tecnología, sino con mejor
-								comprensión y
-								responsabilidad.
-							</p>
-						</blockquote>
-					</div>
-				</div>
-			</div>
-		</section>
 	</section>
 
 
-	<section class="jarallax position-relative  align-items-center min-vh-100 py-lg-5 pt-5"
-			 style="background-image: url(assets/hero-bg.svg);" data-jarallax data-img-position="0% 100%"
-			 data-speed="0.5">
-		<div class="container position-relative zindex-5 py-5">
-			<div class="row justify-content-md-start justify-content-center">
-				<div class="col-md-6 col-sm-8 order-md-1 order-2 d-flex flex-column justify-content-between mt-4 pt-2 text-md-start text-center">
-					<div class="mb-md-5 pb-xl-5 mb-4">
+	<!-- =====================================================
+	     3. ORGANIZA + CTAs
+	     ===================================================== -->
+	<section class="hn-logos-section">
+		<div class="container">
+			<p class="hn-section-label text-center">Organiza</p>
 
-						<!-- Video popup btn -->
-						<!--            <div class="d-inline-flex align-items-center position-relative mb-3">-->
-						<!--              <a href="https://www.youtube.com/watch?v=zPo5ZaH6sW8" class="btn btn-video btn-icon btn-lg flex-shrink-0 me-3 stretched-link" data-bs-toggle="video" aria-label="Play video">-->
-						<!--                <i class="bx bx-play"></i>-->
-						<!--              </a>-->
-						<!--              <h4 class="mb-0">Digital Agency Promo</h4>-->
-						<!--            </div>-->
-
-						<!-- Text -->
-						<h1 class="display-2 mb-md-5 mb-3 pb-3">
-							Hoy, el principal riesgo ya no es técnico.
-							<div class="text-gradient-primary">Es humano.</div>
-						</h1>
-						<div class="d-md-flex align-items-md-start">
-							<!--              <a href="mailto:info@humania.uy" class="btn btn-lg btn-primary flex-shrink-0 me-md-4 mb-md-0 mb-sm-4 mb-3">Work with us</a>-->
-							<p class="d-lg-block d-none mb-0 ps-md-3">La conciencia, el criterio y la formación son hoy
-								la verdadera línea de defensa.</p>
-						</div>
-					</div>
-
-					<!-- Scroll down btn -->
-					<!--          <div class="d-inline-flex align-items-center justify-content-center justify-content-md-start position-relative">-->
-					<!--            <a href="#benefits" data-scroll data-scroll-offset="100" class="btn btn-video btn-icon rounded-circle shadow-sm flex-shrink-0 stretched-link me-3" aria-label="Scroll for more">-->
-					<!--              <i class="bx bx-chevron-down"></i>-->
-					<!--            </a>-->
-					<!--            <span class="fs-sm">Discover more</span>-->
-					<!--          </div>-->
+			<div class="hn-logos-wrap">
+				<div class="hn-logo-item">
+					<img src="assets/logos/arquitectura-promocional.png" alt="Arquitectura Promocional">
 				</div>
+				<div class="hn-logo-item">
+					<img src="assets/logos/grupo-ombu.png" alt="Grupo Ombú — Evolución Digital Consciente">
+				</div>
+			</div>
 
-				<div class="col-sm-6 col-9 order-md-2 order-1">
-					<img class="rounded-3" src="assets/photo-2.jpeg" alt="photo of the event of last year"
-						 style="object-fit: cover;">
-					<!--          <lottie-player class="mx-auto" src="assets/json/animation-digital-agency.json" background="transparent" speed="1" loop autoplay></lottie-player>-->
+			<!-- Botones CTA -->
+			<div class="hn-cta-row">
+				<a href="mailto:info@humania.uy" class="btn btn-lg btn-primary shadow-primary">
+					<i class="bx bx-user-plus me-2"></i>Quiero participar
+				</a>
+				<a href="mailto:info@humania.uy" class="btn btn-lg btn-secondary">
+					<i class="bx bx-buildings me-2"></i>Quiero ser sponsor
+				</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- =====================================================
+	     4. QUÉ ES HUMANIA
+	     ===================================================== -->
+	<section id="que-es-humania" class="hn-what-section">
+		<div class="container">
+			<div class="row g-4 align-items-center">
+				<div class="col-lg-4">
+					<div class="hn-what-label-card">
+						<h2>¿Qué es HumanIA?</h2>
+					</div>
+				</div>
+				<div class="col-lg-8">
+					<p class="fs-lg mb-4" style="color: rgba(255,255,255,0.82);">
+						HumanIA es espacio para pensar, comprender y asumir con criterio el impacto de la
+						inteligencia artificial, la ciberseguridad y la transformación digital en la vida
+						personal, educativa, productiva e institucional.
+					</p>
+					<p class="fs-lg mb-4" style="color: rgba(255,255,255,0.82);">
+						La tecnología no es neutral. Amplifica decisiones humanas. Por eso, la conciencia, el
+						criterio y la formación son hoy la verdadera línea de defensa.
+					</p>
+					<p class="fs-lg mb-0" style="color: rgba(255,255,255,0.82);">
+						HumanIA existe para fortalecer la conciencia humana en la era digital. Para quienes
+						entienden que el desafío no se resuelve solo con más tecnología, sino con mejor
+						comprensión y responsabilidad.
+					</p>
 				</div>
 			</div>
 		</div>
+	</section>
 
-		<section>
-			<div class="d-none d-lg-block" style="margin-top: -60px; padding-top: 60px;"></div>
-			<div class="container pb-4 pt-5">
-				<h2 class="h1 text-center text-md-start mb-lg-4 pt-1 pt-md-4">¿Para Quién es Humania?</h2>
-				<!--      <div class="row align-items-center pb-5 mb-lg-2">-->
-				<!--        <div class="col-md-8 text-center text-md-start">-->
-				<!--          <p class="fs-lg text-muted mb-md-0">We are focused on helping brands grow through digital transformation services. We bring real solutions to each client’s problems through a deep understanding of their market, solution, and vision.</p>-->
-				<!--        </div>-->
-				<!--        <div class="col-md-4 d-flex justify-content-center justify-content-md-end">-->
-				<!--          <a href="services-v1.html" class="btn btn-outline-primary btn-lg">See all services</a>-->
-				<!--        </div>-->
-				<!--      </div>-->
-				<div class="row row-cols-1 row-cols-md-2">
 
-					<!-- Item -->
-					<div class="col py-1 my-2 my-sm-3">
-						<div class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-4 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
-							<div class="card-body pt-3">
-								<!--              <div class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">-->
-								<!--                <img src="assets/img/services/icons/cms.svg" class="d-block m-1" width="40" alt="Icon">-->
-								<!--              </div>-->
-								<h2 class="h4 d-inline-flex align-items-center">
-									Estudiantes y docentes
-									<!--                <i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>-->
-								</h2>
-								<p class="fs-sm text-body mb-0">Si sos parte del sistema educativo, HumanIA es un
-									espacio para reflexionar sobre
-									formación, ciudadanía digital y responsabilidad pedagógica frente a tecnologías que
-									ya
-									están en el aula.</p>
+	<!-- =====================================================
+	     5. PARTICIPA — Logos
+	     ===================================================== -->
+	<section class="hn-logos-section"
+	         style="background: rgba(255,255,255,0.015);
+	                border-top: 1px solid rgba(255,255,255,0.06);
+	                border-bottom: 1px solid rgba(255,255,255,0.06);">
+		<div class="container">
+			<p class="hn-section-label text-center">Participa</p>
+
+			<div class="hn-logos-wrap">
+				<div class="hn-logo-item">
+					<img src="assets/logos/republica-afap.png" alt="República AFAP">
+				</div>
+				<div class="hn-logo-item">
+					<img src="assets/logos/antel.png" alt="Antel">
+				</div>
+				<div class="hn-logo-item">
+					<img src="assets/logos/ort.png" alt="Universidad ORT Uruguay">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- =====================================================
+	     6. APOYA — Logos
+	     ===================================================== -->
+	<section class="hn-logos-section" style="padding-top: 2.5rem;">
+		<div class="container">
+			<p class="hn-section-label text-center">Apoya</p>
+
+			<div class="hn-logos-wrap">
+				<div class="hn-logo-item">
+					<img src="assets/logos/miem.png" alt="Ministerio de Industria, Energía y Minería">
+				</div>
+				<div class="hn-logo-item">
+					<img src="assets/logos/cedu.png" alt="Cámara de la Economía Digital del Uruguay">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- =====================================================
+	     7. FRASE + IMAGEN
+	     ===================================================== -->
+	<section class="hn-frase-section">
+		<div class="container">
+			<div class="row g-5 align-items-center">
+				<div class="col-lg-6 order-lg-1 order-2">
+					<div class="d-flex gap-4">
+						<div class="hn-frase-bar" aria-hidden="true"></div>
+						<div>
+							<p class="hn-frase-quote">
+								La tecnología no es neutral.<br>
+								Amplifica decisiones humanas.
+							</p>
+							<p class="hn-frase-sub">
+								La conciencia, el criterio y la formación son hoy la verdadera línea de defensa.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 order-lg-2 order-1">
+					<img src="assets/photo-1.jpeg" alt="Imagen del evento HumanIA" class="hn-frase-img">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- =====================================================
+	     8. SPEAKERS — Carrusel
+	     ===================================================== -->
+	<section id="speakers" class="hn-speakers-section">
+		<div class="container">
+			<h2 class="display-5 fw-bold mb-2">Speakers</h2>
+			<p class="mb-4" style="color: rgba(255,255,255,0.5);">
+				Referentes del ámbito educativo, tecnológico e institucional.
+			</p>
+
+			<!--
+			  CARRUSEL DE SPEAKERS — Cómo editar:
+			  - Cada <div class="swiper-slide"> es un speaker.
+			  - Para agregar foto real: reemplazar el bloque .hn-speaker-photo-placeholder por:
+			    <img src="assets/speakers/nombre.jpg" alt="Nombre Speaker" class="hn-speaker-photo">
+			  - Editar .hn-speaker-name, .hn-speaker-role y .hn-speaker-text con los datos reales.
+			  - Mantener siempre 8 swiper-slide o agregar/quitar según necesidad.
+			-->
+			<div class="hn-speakers-swiper-wrapper">
+			<button class="hn-swiper-btn hn-swiper-prev" aria-label="Speaker anterior">
+				<i class="bx bx-chevron-left" aria-hidden="true"></i>
+			</button>
+
+			<div class="swiper hn-speakers-swiper">
+				<div class="swiper-wrapper">
+
+					<!-- Speaker 1: Victoria Novick Rettich -->
+					<div class="swiper-slide h-auto">
+						<div class="hn-speaker-card">
+							<img src="assets/speakers/victoria-novick.jpeg" alt="Victoria Novick Rettich" class="hn-speaker-photo">
+							<div class="hn-speaker-body">
+								<p class="hn-speaker-name">Victoria Novick Rettich</p>
+								<p class="hn-speaker-role">Producción Ejecutiva</p>
+								<p class="hn-speaker-text">Responsable de coordinar la planificación general, la articulación operativa y el seguimiento integral del proyecto, gestionando tiempos, recursos y equipos.</p>
 							</div>
 						</div>
 					</div>
 
-					<!-- Item -->
-					<div class="col py-1 my-2 my-sm-3">
-						<div class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-4 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
-							<div class="card-body pt-3">
-								<!--              <div class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">-->
-								<!--                <img src="assets/img/services/icons/rocket.svg" class="d-block m-1" width="40" alt="Icon">-->
-								<!--              </div>-->
-								<h2 class="h4 d-inline-flex align-items-center">
-									Sector público e institucional
-									<!--                <i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>-->
-								</h2>
-								<p class="fs-sm text-body mb-0">Si representás a una institución pública o privada,
-									HumanIA propone un ámbito de
-									diálogo serio sobre gobernanza, soberanía digital, toma de decisiones y desafíos
-									estratégicos en contextos cada vez más automatizados.</p>
+					<!-- Speaker 2: Roberto Vázquez Paganini -->
+					<div class="swiper-slide h-auto">
+						<div class="hn-speaker-card">
+							<img src="assets/speakers/roberto-vazquez.jpg" alt="Roberto Vázquez Paganini" class="hn-speaker-photo">
+							<div class="hn-speaker-body">
+								<p class="hn-speaker-name">Roberto Vázquez Paganini</p>
+								<p class="hn-speaker-role">Logística, Stands y Administración</p>
+								<p class="hn-speaker-text">A cargo de la logística general, coordinación de espacios de stands y gestión administrativa, asegurando el funcionamiento de la infraestructura y la relación con proveedores.</p>
 							</div>
 						</div>
 					</div>
 
-					<!-- Item -->
-					<div class="col py-1 my-2 my-sm-3">
-						<div class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-4 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
-							<div class="card-body pt-3">
-								<!--              <div class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">-->
-								<!--                <img src="assets/img/services/icons/rocket.svg" class="d-block m-1" width="40" alt="Icon">-->
-								<!--              </div>-->
-								<h2 class="h4 d-inline-flex align-items-center">
-									Empresas
-									<!--                <i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>-->
-								</h2>
-								<p class="fs-sm text-body mb-0">Si participás del sector productivo o tecnológico,
-									HumanIA invita a mirar más allá de la
-									eficiencia, incorporando ética, impacto humano y sostenibilidad como parte del
-									negocio
-									y de la innovación.</p>
+					<!-- Speaker 3: Santiago H. Pereira Testa -->
+					<div class="swiper-slide h-auto">
+						<div class="hn-speaker-card">
+							<img src="assets/speakers/santiago-pereira.jpg" alt="Santiago H. Pereira Testa" class="hn-speaker-photo">
+							<div class="hn-speaker-body">
+								<p class="hn-speaker-name">Santiago H. Pereira Testa</p>
+								<p class="hn-speaker-role">Gestión Cultural y Comercial</p>
+								<p class="hn-speaker-text">Integra el equipo articulando la dimensión cultural con las relaciones institucionales y comerciales, participando en la definición de enfoques y la construcción de acuerdos.</p>
 							</div>
 						</div>
 					</div>
 
-					<!-- Item -->
-					<div class="col py-1 my-2 my-sm-3">
-						<div class="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-4 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
-							<div class="card-body pt-3">
-								<!--              <div class="d-inline-block bg-primary shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">-->
-								<!--                <img src="assets/img/services/icons/digital.svg.svg" class="d-block m-1" width="40" alt="Icon">-->
-								<!--              </div>-->
-								<h2 class="h4 d-inline-flex align-items-center">
-									Ciudadanía digital
-									<!--                <i class="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>-->
-								</h2>
-								<p class="fs-sm text-body mb-0">Si sos simplemente un ciudadano interesado, HumanIA es
-									una invitación a comprender
-									mejor el mundo digital que habitamos y a no delegar criterio en algoritmos
-									opacos.</p>
+					<!-- Speaker 4: Cr. Bruno Gili -->
+					<div class="swiper-slide h-auto">
+						<div class="hn-speaker-card">
+							<img src="assets/speakers/bruno-gili.png" alt="Cr. Bruno Gili" class="hn-speaker-photo">
+							<div class="hn-speaker-body">
+								<p class="hn-speaker-name">Cr. Bruno Gili</p>
+								<p class="hn-speaker-role">Director Ejecutivo, Uruguay Innová (U+I) — Presidencia de la República</p>
+								<p class="hn-speaker-text">Contador público con Diploma en Estudios Avanzados por la Universidad de Valencia. Lidera el programa Uruguay Innová desde Presidencia de la República.</p>
 							</div>
 						</div>
 					</div>
 
-				</div>
-			</div>
-		</section>
-	</section>
-
-
-	<!-- Our Services -->
-	<section class="container-fluid position-relative px-0">
-		<div class="row g-0 min-vh-100">
-			<div class="col-xl-7 col-lg-6 pe-lg-5">
-				<div class="d-flex h-100 pe-xl-4">
-					<img src="assets/photo-1.jpeg" alt="photo of the event of last year" style="object-fit: cover;">
-				</div>
-			</div>
-			<div class="col-xl-5 col-lg-6 position-relative py-5">
-				<img src="assets/hero-bg.png" class="position-absolute top-50 translate-middle-y ms-lg-n4" width="866"
-					 alt="Background shapes">
-				<div class="position-relative zindex-5 text-center text-lg-start px-3 px-lg-0 py-xl-4 py-xxl-5 mt-lg-3 mx-auto mx-lg-0"
-					 style="max-width: 530px;">
-					<h1 class="display-1 pb-lg-3 mb-3">HumanIA&nbsp;2026</h1>
-					<div class="d-flex justify-content-center justify-content-lg-start text-start mb-2">
-						<i class="bx bx-map fs-4 text-primary me-2"></i>
-						<div class="fs-xl">Radisson Victoria Plaza Hotel
-							<br>
-							Montevideo, Uruguay
+					<!-- Speaker 5: Dra. Agustina Pérez Comenale -->
+					<div class="swiper-slide h-auto">
+						<div class="hn-speaker-card">
+							<img src="assets/speakers/agustina-perez.png" alt="Dra. Agustina Pérez Comenale" class="hn-speaker-photo">
+							<div class="hn-speaker-body">
+								<p class="hn-speaker-name">Dra. Agustina Pérez Comenale</p>
+								<p class="hn-speaker-role">LL.M. · Abogada · Escribana | Legal · Regulatory · Technology</p>
+								<p class="hn-speaker-text">Profesora en la Universidad de Montevideo. Referente en datos y regulación digital del país.</p>
+							</div>
 						</div>
 					</div>
-					<div class="d-flex justify-content-center justify-content-lg-start text-start mb-2">
-						<i class="bx bx-calendar fs-4 text-primary me-2"></i>
-						<div class="fs-xl">8 y 9 de septiembre de 2026</div>
-					</div>
-					<div class="d-flex justify-content-center justify-content-lg-start text-start mb-2">
-						<i class="bx bx-hash fs-4 text-primary me-2"></i>
-						<div class="fs-xl">IA · Ciberseguridad · Conciencia digital · Impacto humano</div>
-					</div>
 
-					<div class="rounded-3 py-4 px-4 bg-secondary">
-						<p>
-							Reúne a referentes del ámbito educativo, institucional, productivo y tecnológico.
-						</p>
-						<p class="mb-0">
-							Es una instancia de encuentro dentro de un camino de largo plazo, con foco en
-							inteligencia artificial, ciberseguridad y conciencia digital.
-						</p>
+					<!-- Speaker 6: Placeholder -->
+					<div class="swiper-slide h-auto">
+						<div class="hn-speaker-card">
+							<div class="hn-speaker-photo-placeholder" aria-hidden="true">
+								<i class="bx bxs-user-circle"></i>
+							</div>
+							<div class="hn-speaker-body">
+								<p class="hn-speaker-name">Speaker 6</p>
+								<p class="hn-speaker-role">Cargo · Institución</p>
+								<p class="hn-speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
 					</div>
 
+					<!-- Speaker 7: Placeholder -->
+					<div class="swiper-slide h-auto">
+						<div class="hn-speaker-card">
+							<div class="hn-speaker-photo-placeholder" aria-hidden="true">
+								<i class="bx bxs-user-circle"></i>
+							</div>
+							<div class="hn-speaker-body">
+								<p class="hn-speaker-name">Speaker 7</p>
+								<p class="hn-speaker-role">Cargo · Institución</p>
+								<p class="hn-speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
 
-					<!--          <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start py-4 py-lg-5">-->
-					<!--            <a href="mailto:info@humania.uy" class="btn btn-primary shadow-primary btn-lg me-sm-3 me-xl-4 mb-3">Buy access pass</a>-->
-					<!--            <a href="mailto:info@humania.uy" class="btn btn-outline-primary btn-lg mb-3">-->
-					<!--              <i class="bx bx-calendar-check fs-xl me-2 ms-n1"></i>-->
-					<!--              Add to calendar-->
-					<!--            </a>-->
-					<!--          </div>-->
-					<!--          <div class="d-flex align-items-center justify-content-center justify-content-lg-start text-start pb-2 pt-lg-2 pb-xl-0 pt-xl-5 mt-xxl-5">-->
-					<!--            <div class="d-flex me-3">-->
-					<!--              <div class="d-flex align-items-center justify-content-center bg-light rounded-circle" style="width: 52px; height: 52px;">-->
-					<!--                <img src="assets/img/avatar/08.jpg" class="rounded-circle" width="48" alt="Avatar">-->
-					<!--              </div>-->
-					<!--              <div class="d-flex align-items-center justify-content-center bg-light rounded-circle ms-n3" style="width: 52px; height: 52px;">-->
-					<!--                <img src="assets/img/avatar/40.jpg" class="rounded-circle" width="48" alt="Avatar">-->
-					<!--              </div>-->
-					<!--              <div class="d-flex align-items-center justify-content-center bg-light rounded-circle ms-n3" style="width: 52px; height: 52px;">-->
-					<!--                <img src="assets/img/avatar/09.jpg" class="rounded-circle" width="48" alt="Avatar">-->
-					<!--              </div>-->
-					<!--            </div>-->
-					<!--            <span class="fs-sm"><span class="text-primary fw-semibold">400+</span> attendees are already with us</span>-->
-					<!--          </div>-->
+					<!-- Speaker 8: Placeholder -->
+					<div class="swiper-slide h-auto">
+						<div class="hn-speaker-card">
+							<div class="hn-speaker-photo-placeholder" aria-hidden="true">
+								<i class="bx bxs-user-circle"></i>
+							</div>
+							<div class="hn-speaker-body">
+								<p class="hn-speaker-name">Speaker 8</p>
+								<p class="hn-speaker-role">Cargo · Institución</p>
+								<p class="hn-speaker-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+
+				</div><!-- /.swiper-wrapper -->
+			</div><!-- /.swiper -->
+
+			<button class="hn-swiper-btn hn-swiper-next" aria-label="Siguiente speaker">
+				<i class="bx bx-chevron-right" aria-hidden="true"></i>
+			</button>
+			</div><!-- /.hn-speakers-swiper-wrapper -->
+
+		</div>
+	</section>
+
+
+	<!-- =====================================================
+	     9. ¿PARA QUIÉN ES HUMANIA?
+	     ===================================================== -->
+	<section class="hn-audience-section">
+		<div class="container">
+			<h2 class="display-5 fw-bold mb-5">¿Para Quién es HumanIA?</h2>
+			<div class="row g-4">
+
+				<div class="col-md-6">
+					<div class="hn-audience-card">
+						<h3>Estudiantes y docentes</h3>
+						<p>Si sos parte del sistema educativo, HumanIA es un espacio para reflexionar sobre
+							formación, ciudadanía digital y responsabilidad pedagógica frente a tecnologías que
+							ya están en el aula.</p>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="hn-audience-card">
+						<h3>Sector público e institucional</h3>
+						<p>Si representás a una institución pública o privada, HumanIA propone un ámbito de
+							diálogo serio sobre gobernanza, soberanía digital, toma de decisiones y desafíos
+							estratégicos en contextos cada vez más automatizados.</p>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="hn-audience-card">
+						<h3>Empresas</h3>
+						<p>Si participás del sector productivo o tecnológico, HumanIA invita a mirar más allá
+							de la eficiencia, incorporando ética, impacto humano y sostenibilidad como parte del
+							negocio y de la innovación.</p>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="hn-audience-card">
+						<h3>Ciudadanía digital</h3>
+						<p>Si sos simplemente un ciudadano interesado, HumanIA es una invitación a comprender
+							mejor el mundo digital que habitamos y a no delegar criterio en algoritmos opacos.</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<!-- =====================================================
+	     10. CTA FINAL — Participar del encuentro
+	     ===================================================== -->
+	<section id="participar" class="hn-cta-final">
+		<div class="container">
+			<div class="hn-cta-card">
+				<p class="hn-cta-pre">
+					Si llegaste hasta acá, probablemente HumanIA te interpele desde algún lugar.<br>
+					Podés profundizar en el proyecto, conocer el sentido del encuentro o explorar las
+					formas de participar.
+				</p>
+				<h2 class="hn-cta-title">Participar del encuentro</h2>
+				<div class="hn-cta-buttons">
+					<a href="mailto:info@humania.uy" class="btn btn-lg btn-outline-light">
+						Explorar el proyecto
+					</a>
+					<a href="mailto:info@humania.uy" class="btn btn-lg btn-outline-light">
+						Contacto institucional
+					</a>
 				</div>
 			</div>
 		</div>
-		<!--    <div class="position-absolute d-none d-lg-block bottom-0 start-0 w-100 zindex-5 pb-xxl-5">-->
-		<!--      <div class="container pb-4 mb-3 mb-xxl-0">-->
-		<!--        <a href="#speakers" class="d-table text-light opacity-80 text-decoration-none w-auto py-4" data-scroll data-scroll-offset="70">-->
-		<!--              <span class="d-flex align-items-center">-->
-		<!--                Scroll for more-->
-		<!--                <i class="bx bx-down-arrow-circle fs-3 ms-2"></i>-->
-		<!--              </span>-->
-		<!--        </a>-->
-		<!--      </div>-->
-		<!--    </div>-->
-	</section>
-
-	<section class="container pt-5 pb-2 pb-md-3 py-lg-5 align-content-center">
-		<div class="row align-items-center mt-2 mt-md-0 pt-5 pt-md-4 pt-lg-0 pb-md-3 pb-lg-5">
-			<div class="col-md-6 col-12">
-				<h2 class="pb-3 pt-5">Por qué participar</h2>
-
-				<p class="mb-3">
-					HumanIA no busca convencer ni captar.
-					Busca ofrecer un marco claro para pensar.
-					El encuentro está pensado para ofrecer información confiable, ordenar recorridos,
-				</p>
-				<p class="mb-3">
-					generar diálogo intersectorial y canalizar manifestaciones de interés con
-					responsabilidad.
-				</p>
-				<p class="mb-3">
-					Participar de HumanIA es formar parte de una conversación necesaria sobre cómo
-					convivimos, decidimos y proyectamos futuro en entornos cada vez más digitales.
-				</p>
-			</div>
-			<div class="col-md-6 col-12">
-				<h2 class="pb-3 pt-5">Sponsors & Alianzas</h2>
-				<p class="mb-3">
-					HumanIA ofrece a las marcas y organizaciones un espacio de posicionamiento
-					estratégico, donde presentar soluciones, participar del debate sobre el futuro digital y
-				</p>
-				<p class="mb-3">
-					vincularse con decisores, instituciones y referentes del ecosistema educativo y
-					tecnológico.
-				</p>
-				<p class="mb-3">
-					Las alianzas se construyen desde la coherencia, la reputación y el impacto a largo plazo.
-				</p>
-				<!--        <a href="mailto:info@humania.uy" class="btn btn-primary">-->
-				<!--          Learn more-->
-				<!--          <i class="bx bx-right-arrow-alt fs-xl ms-2 me-n1"></i>-->
-				<!--        </a>-->
-			</div>
-		</div>
-		<!-- Extra spacing for dark mode only -->
-		<!--    <div class="pt-5 d-none d-dark-mode-block"></div>-->
 	</section>
 
 
-	<section id="participar" class="container pt-3 pb-4 pb-md-5 align-content-center"
-			 style="margin-top: -156px; margin-bottom: 120px; transform: translateY(156px);">
-		<div class="card border-0 bg-gradient-primary">
-			<div class="card-body p-md-5 p-4 bg-size-cover"
-				 style="background-image: url(assets/hero-bg.png);">
-				<div class="py-md-5 py-4 text-center">
-					<h3 class="h4 fw-normal text-light opacity-75">
-						Si llegaste hasta acá, probablemente HumanIA te interpele desde algún lugar.
-						<br>
-						Podés profundizar en el proyecto, conocer el sentido del encuentro o explorar las formas
-						de participar.
-					</h3>
-					<a href="mailto:info@humania.uy" class="display-6 text-light">Participar del encuentro</a>
+	<!-- =====================================================
+	     11. POR QUÉ PARTICIPAR + SPONSORS & ALIANZAS
+	     ===================================================== -->
+	<section class="hn-bottom-section">
+		<div class="container">
+			<div class="row g-5">
 
-					<div class="pt-md-5 pt-4 pb-md-2">
-						<a href="mailto:info@humania.uy" class="btn btn-lg btn-secondary me-sm-3 me-xl-4 mb-3">Explorar
-							el proyecto</a>
-						<!--            <a href="mailto:info@humania.uy" class="btn btn-lg btn-secondary"></a>-->
-						<a href="mailto:info@humania.uy" class="btn btn-lg btn-secondary mb-3">Contacto
-							institucional</a>
-					</div>
+				<div class="col-lg-6">
+					<h2>Por qué participar</h2>
+					<p>
+						HumanIA no busca convencer ni captar. Busca ofrecer un marco claro para pensar.
+						El encuentro está pensado para ofrecer información confiable, ordenar recorridos,
+						generar diálogo intersectorial y canalizar manifestaciones de interés con responsabilidad.
+					</p>
+					<p>
+						Participar de HumanIA es formar parte de una conversación necesaria sobre cómo
+						convivimos, decidimos y proyectamos futuro en entornos cada vez más digitales.
+					</p>
 				</div>
+
+				<div class="col-lg-6">
+					<h2>Sponsors &amp; Alianzas</h2>
+					<p>
+						HumanIA ofrece a las marcas y organizaciones un espacio de posicionamiento
+						estratégico, donde presentar soluciones, participar del debate sobre el futuro digital
+						y vincularse con decisores, instituciones y referentes del ecosistema educativo y
+						tecnológico.
+					</p>
+					<p>
+						Las alianzas se construyen desde la coherencia, la reputación y el impacto a largo
+						plazo.
+					</p>
+				</div>
+
 			</div>
 		</div>
 	</section>
+
+
 </main>
-
-
-<!--&lt;!&ndash; Footer &ndash;&gt;-->
-<!--<footer class="footer pt-5 pb-4 pb-lg-5">-->
-<!--  <div class="container pt-lg-4">-->
-<!--    <div class="row pb-5">-->
-<!--      <div class="col-lg-4 col-md-6">-->
-<!--        <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">-->
-<!--          <img src="assets/img/logo.svg" width="47" alt="Silicon">-->
-<!--          Silicon-->
-<!--        </div>-->
-<!--        <p class="fs-sm pb-lg-3 mb-4">Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget elementum dolor ullamcorper sodales ultrices eros.</p>-->
-<!--        <form class="needs-validation" novalidate>-->
-<!--          <label for="subscr-email" class="form-label">Subscribe to our newsletter</label>-->
-<!--          <div class="input-group">-->
-<!--            <input type="email" id="subscr-email" class="form-control rounded-start ps-5" placeholder="Your email" required>-->
-<!--            <i class="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>-->
-<!--            <div class="invalid-tooltip position-absolute top-100 start-0">Please provide a valid email address.</div>-->
-<!--            <button type="submit" class="btn btn-primary">Subscribe</button>-->
-<!--          </div>-->
-<!--        </form>-->
-<!--      </div>-->
-<!--      <div class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">-->
-<!--        <div id="footer-links" class="row">-->
-<!--          <div class="col-lg-4">-->
-<!--            <h6 class="mb-2">-->
-<!--              <a href="#useful-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Useful Links</a>-->
-<!--            </h6>-->
-<!--            <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">-->
-<!--              <ul class="nav flex-column pb-lg-1 mb-lg-3">-->
-<!--                <li class="nav-item"><a href="mailto:info@humania.uy" class="nav-link d-inline-block px-0 pt-1 pb-2">Home</a></li>-->
-<!--                <li class="nav-item"><a href="mailto:info@humania.uy" class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>-->
-<!--                <li class="nav-item"><a href="mailto:info@humania.uy" class="nav-link d-inline-block px-0 pt-1 pb-2">Case Studies</a></li>-->
-<!--                <li class="nav-item"><a href="mailto:info@humania.uy" class="nav-link d-inline-block px-0 pt-1 pb-2">Careers</a></li>-->
-<!--                <li class="nav-item"><a href="mailto:info@humania.uy" class="nav-link d-inline-block px-0 pt-1 pb-2">Blog</a></li>-->
-<!--              </ul>-->
-<!--              <ul class="nav flex-column mb-2 mb-lg-0">-->
-<!--                <li class="nav-item"><a href="mailto:info@humania.uy" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms &amp; Conditions</a></li>-->
-<!--                <li class="nav-item"><a href="mailto:info@humania.uy" class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy Policy</a></li>-->
-<!--              </ul>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="col-xl-4 col-lg-3">-->
-<!--            <h6 class="mb-2">-->
-<!--              <a href="#social-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Socials</a>-->
-<!--            </h6>-->
-<!--            <div id="social-links" class="collapse d-lg-block" data-bs-parent="#footer-links">-->
-<!--              <ul class="nav flex-column mb-2 mb-lg-0">-->
-<!--                <li class="nav-item"><a href="mailto:info@humania.uy" class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>-->
-<!--                <li class="nav-item"><a href="mailto:info@humania.uy" class="nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>-->
-<!--                <li class="nav-item"><a href="mailto:info@humania.uy" class="nav-link d-inline-block px-0 pt-1 pb-2">Twitter</a></li>-->
-<!--                <li class="nav-item"><a href="mailto:info@humania.uy" class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>-->
-<!--              </ul>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--          <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">-->
-<!--            <h6 class="mb-2">Contact Us</h6>-->
-<!--            <a href="mailto:email@example.com" class="fw-medium">email@example.com</a>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--    <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">-->
-<!--      <span class="text-muted">&copy; All rights reserved. Made by </span>-->
-<!--      <a class="nav-link d-inline-block p-0 opacity-80" href="https://createx.studio/" target="_blank" rel="noopener">Createx Studio</a>-->
-<!--    </p>-->
-<!--  </div>-->
-<!--</footer>-->
 
 
 <!-- Back to top button -->
@@ -705,5 +630,9 @@
 
 <!-- Main Theme Script -->
 <script src="assets/js/theme.min.js"></script>
+
+<!-- HumanIA Custom Script -->
+<script src="assets/js/humania.js"></script>
+
 </body>
 </html>
