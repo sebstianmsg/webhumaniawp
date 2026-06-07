@@ -91,6 +91,15 @@
   background-clip: text;
 }
 
+/* ---- Badge imagen fecha/lugar ---- */
+.hn-badge-img {
+  max-width: 910px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 /* ---- Badges / Pills — conectados, sin gap, forman una barra bicolor ---- */
 .hn-badge-row {
   display: flex;
@@ -216,15 +225,14 @@
 .hn-logos-wrap {
   background: #ffffff;
   border-radius: 22px;
-  padding: 2.25rem 3rem;
+  padding: 2rem 2.5rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem 4rem;
+  gap: 1rem 3rem;
   box-shadow: 0 4px 28px rgba(0, 0, 0, 0.32);
   max-width: 820px;
-  min-height: 120px;
   margin: 0 auto;
 }
 
@@ -237,11 +245,16 @@
 }
 
 .hn-logo-item img {
-  max-height: 72px;
-  max-width: 200px;
+  max-height: 130px;
+  max-width: 286px;
   width: auto;
   height: auto;
   object-fit: contain;
+}
+
+/* Antel es más ancho que alto — se achica para quedar en proporción */
+.hn-logo-item img[alt="Antel"] {
+  max-height: 75px;
 }
 
 /* Texto placeholder hasta tener imagen real */
@@ -365,11 +378,12 @@
   transform: translateY(-4px);
 }
 
-/* Foto del speaker — aspecto cuadrado */
+/* Foto del speaker — aspecto cuadrado, ancla al top para no cortar cabeza */
 .hn-speaker-photo {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  object-position: top center;
   display: block;
 }
 
@@ -641,6 +655,10 @@
     font-size: 0.72rem;
     padding: 0.55rem 1rem;
     letter-spacing: 0.03em;
+  }
+
+  .hn-badge-img {
+    width: 95%;
   }
 
   /* En mobile muy pequeño los botones van debajo */
